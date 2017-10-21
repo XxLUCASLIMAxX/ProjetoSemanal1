@@ -60,10 +60,12 @@ namespace CalculoCPF
                 aux=1;
             }
             
-            return cpf;
+          
             
             }
+              return cpf;
         }
+
         /*
         1 – Cadastro de clientes
 2 – Cadastro de produtos
