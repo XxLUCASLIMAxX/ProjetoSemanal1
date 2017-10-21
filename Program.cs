@@ -43,8 +43,13 @@ namespace CalculoCPF
 		digito = digito + resto.ToString();
 		return cpf.EndsWith(digito);
         }
-        static void preencher(string cpf){
+
+
+
+
+        static String preencher(){
             int aux=0;
+            string cpf="";
              while(aux==0){
 
            
@@ -55,7 +60,30 @@ namespace CalculoCPF
                 aux=1;
             }
             
+            return cpf;
+            
             }
+        }
+        /*
+        1 – Cadastro de clientes
+2 – Cadastro de produtos
+3 – Realizar venda
+4 – Extrato cliente
+9 – Sair
+
+ */
+        static void menu(){
+            int aux=0;
+            while(aux!=9){
+                Console.WriteLine("1:CADASTRO DE CLIENTES");
+                Console.WriteLine("2:CADASTRO DE PRODUTOS");
+                Console.WriteLine("3:REALIZAR VENDA");
+                Console.WriteLine("4:EXTRATO CLIENTE");
+                Console.WriteLine("9:SAIR");
+                aux=Int32.Parse(Console.ReadLine());
+
+            }
+            Console.WriteLine("-----------------------Operaçã finalizada-----------------------");
         }
 
 
@@ -71,8 +99,8 @@ namespace CalculoCPF
             
             Console.Write("Digite o cpf: ");
             cpf=Console.ReadLine();
+            cpf=preencher();
 
-            preencher(cpf);
             checkCpf(cpf);
             Console.WriteLine(checkCpf(cpf));
 
