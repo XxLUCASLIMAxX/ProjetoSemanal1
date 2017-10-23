@@ -1,0 +1,63 @@
+using System;
+using NetOffice.ExcelApi;
+
+namespace matriz1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Clear();
+          //  string [,] teste ={};
+            
+            //  string [,] sacola={
+            //     {"id","Produto","preço"},
+            //     {"54","calça"," R$ 100"},
+            //     {"105","blusa","R$ 56"}
+            //               };
+                          //para manipular o excel vamos fazer uma referencia a classe aplication
+                          string [,] dados = new string[3,3];
+                          Application ex =  new Application();
+                          //ex.Visible=true;
+                         // ex.Workbooks.Add();//adiciona uma nova planilha em branco
+                         ex.Workbooks.Open("produtos.xlsx");
+                          //workboos.open para selecionar o arquivo
+                          ex.Range("A1").Select();//seleciona a primeira celula
+
+                
+                          for (int lin=0;lin<3;lin++){
+                              for(int col=0;col<3;col++){
+                                  dados[lin,col]=ex.Cells[lin+1,col+1].Value.ToString();
+                                  
+                              }
+                          }
+
+                          ex.Quit();
+
+                           for (int lin=0;lin<3;lin++){
+                              for(int col=0;col<3;col++){
+                                 Console.Write(dados[lin,col]+"\t");
+                                  
+                              }
+                              Console.WriteLine();
+                          }
+
+        // for(int lin = 0;lin< sacola.GetLength(0);lin++){
+
+        //     for (int col=0;col< sacola.GetLength(1);col++){
+        //         ex.Cells[lin+1,col+1].Value=sacola[lin,col];
+                
+        //         //Console.Write(sacola[lin,col]+"\t");
+                
+          
+        //   }
+         
+         
+        // }
+
+        
+        //ex.ActiveWorkbook.SaveAs("produtos.xlsx");
+        
+    }
+}
+}

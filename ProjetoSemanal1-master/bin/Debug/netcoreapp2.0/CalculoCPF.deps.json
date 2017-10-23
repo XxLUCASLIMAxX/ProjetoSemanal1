@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+<<<<<<< HEAD
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+=======
+    "signature": "d198e4f9e959e9eaf6951355e5305b707637a333"
+>>>>>>> Cadastro de cliente funcionando
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "CalculoCPF/1.0.0": {
+<<<<<<< HEAD
+        "runtime": {
+          "CalculoCPF.dll": {}
+        }
+=======
+        "dependencies": {
+          "NetOffice.Excel": "1.7.3"
+        },
+        "runtime": {
+          "CalculoCPF.dll": {}
+        }
+      },
+      "NetOffice.Core/1.7.3": {
+        "runtime": {
+          "lib/net45/NetOffice.dll": {},
+          "lib/net45/OfficeApi.dll": {},
+          "lib/net45/VBIDEApi.dll": {}
+        }
+      },
+      "NetOffice.Excel/1.7.3": {
+        "dependencies": {
+          "NetOffice.Core": "1.7.3"
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {}
+        }
+>>>>>>> Cadastro de cliente funcionando
+      }
+    }
+  },
+  "libraries": {
+    "CalculoCPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+<<<<<<< HEAD
+=======
+    },
+    "NetOffice.Core/1.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QK41Iq8O3jhtGPfHBTaZW5MPMOfZ79CIDpxakfjxsG9CyK8L3xIr566Z2caHJ57yR51qf1HLfJw3OVprGykWfQ==",
+      "path": "netoffice.core/1.7.3",
+      "hashPath": "netoffice.core.1.7.3.nupkg.sha512"
+    },
+    "NetOffice.Excel/1.7.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sUQw3FG0hXMnzkHmddw3/cyFPSpV0XbknaCYY6A/unFYvgeOvsIexo8Widvg6gzG9v1ZCBz1PS7+knoK7Al/Sw==",
+      "path": "netoffice.excel/1.7.3",
+      "hashPath": "netoffice.excel.1.7.3.nupkg.sha512"
+>>>>>>> Cadastro de cliente funcionando
+    }
+  }
+}

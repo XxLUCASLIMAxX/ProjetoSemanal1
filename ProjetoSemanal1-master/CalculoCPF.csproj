@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <PackageReference Include="NetOffice.Excel" Version="1.7.3.0" />
+  </ItemGroup>
+>>>>>>> Cadastro de cliente funcionando
+</Project>
