@@ -1,5 +1,9 @@
 {
   "version": 1,
+<<<<<<< HEAD
   "dgSpecHash": "E/f7JPRPlH5ck0Q0MTxBxoEugPFf7GxihWF9iowRvW8xVKnFVn+dIchAgUyWfVfdgQQR/V6XJdP8uPak+mzQuQ==",
+=======
+  "dgSpecHash": "BemFqbYEIxbLvLo77uwWBKjseX4maP/mB/WmxhYN9ABlxNhOCL7jqZTo/dCyEynyqxVy6o5iexqdHcw997afjQ==",
+>>>>>>> Cadastro de cliente funcionando
   "success": true
 }

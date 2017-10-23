@@ -8,3 +8,16 @@ C:\Users\FIC\CalculoCPF\obj\Debug\netcoreapp2.0\CalculoCPF.AssemblyInfoInputs.ca
 C:\Users\FIC\CalculoCPF\obj\Debug\netcoreapp2.0\CalculoCPF.AssemblyInfo.cs
 C:\Users\FIC\CalculoCPF\obj\Debug\netcoreapp2.0\CalculoCPF.dll
 C:\Users\FIC\CalculoCPF\obj\Debug\netcoreapp2.0\CalculoCPF.pdb
+<<<<<<< HEAD
+=======
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\bin\Debug\netcoreapp2.0\CalculoCPF.deps.json
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\bin\Debug\netcoreapp2.0\CalculoCPF.runtimeconfig.json
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\bin\Debug\netcoreapp2.0\CalculoCPF.runtimeconfig.dev.json
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\bin\Debug\netcoreapp2.0\CalculoCPF.dll
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\bin\Debug\netcoreapp2.0\CalculoCPF.pdb
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\obj\Debug\netcoreapp2.0\CalculoCPF.csproj.CoreCompileInputs.cache
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\obj\Debug\netcoreapp2.0\CalculoCPF.AssemblyInfoInputs.cache
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\obj\Debug\netcoreapp2.0\CalculoCPF.AssemblyInfo.cs
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\obj\Debug\netcoreapp2.0\CalculoCPF.dll
+C:\Users\Admnin2\Desktop\projetos\ProjetoSemanal1-master\obj\Debug\netcoreapp2.0\CalculoCPF.pdb
+>>>>>>> Cadastro de cliente funcionando

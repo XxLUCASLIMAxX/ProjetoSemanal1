@@ -182,6 +182,34 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+<<<<<<< HEAD
+=======
+      "NetOffice.Core/1.7.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/NetOffice.dll": {},
+          "lib/net45/OfficeApi.dll": {},
+          "lib/net45/VBIDEApi.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NetOffice.dll": {},
+          "lib/net45/OfficeApi.dll": {},
+          "lib/net45/VBIDEApi.dll": {}
+        }
+      },
+      "NetOffice.Excel/1.7.3": {
+        "type": "package",
+        "dependencies": {
+          "NetOffice.Core": "1.7.3"
+        },
+        "compile": {
+          "lib/net45/ExcelApi.dll": {}
+        },
+        "runtime": {
+          "lib/net45/ExcelApi.dll": {}
+        }
+      },
+>>>>>>> Cadastro de cliente funcionando
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -529,6 +557,69 @@
         "version.txt"
       ]
     },
+<<<<<<< HEAD
+=======
+    "NetOffice.Core/1.7.3": {
+      "sha512": "QK41Iq8O3jhtGPfHBTaZW5MPMOfZ79CIDpxakfjxsG9CyK8L3xIr566Z2caHJ57yR51qf1HLfJw3OVprGykWfQ==",
+      "type": "package",
+      "path": "netoffice.core/1.7.3",
+      "files": [
+        "lib/net20/NetOffice.dll",
+        "lib/net20/NetOffice.xml",
+        "lib/net20/OfficeApi.dll",
+        "lib/net20/OfficeApi.xml",
+        "lib/net20/VBIDEApi.dll",
+        "lib/net20/VBIDEApi.xml",
+        "lib/net30/NetOffice.dll",
+        "lib/net30/NetOffice.xml",
+        "lib/net30/OfficeApi.dll",
+        "lib/net30/OfficeApi.xml",
+        "lib/net30/VBIDEApi.dll",
+        "lib/net30/VBIDEApi.xml",
+        "lib/net35/NetOffice.dll",
+        "lib/net35/NetOffice.xml",
+        "lib/net35/OfficeApi.dll",
+        "lib/net35/OfficeApi.xml",
+        "lib/net35/VBIDEApi.dll",
+        "lib/net35/VBIDEApi.xml",
+        "lib/net40/NetOffice.dll",
+        "lib/net40/NetOffice.xml",
+        "lib/net40/OfficeApi.dll",
+        "lib/net40/OfficeApi.xml",
+        "lib/net40/VBIDEApi.dll",
+        "lib/net40/VBIDEApi.xml",
+        "lib/net45/NetOffice.dll",
+        "lib/net45/NetOffice.xml",
+        "lib/net45/OfficeApi.dll",
+        "lib/net45/OfficeApi.xml",
+        "lib/net45/VBIDEApi.dll",
+        "lib/net45/VBIDEApi.xml",
+        "netoffice.core.1.7.3.nupkg.sha512",
+        "netoffice.core.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NetOffice.Excel/1.7.3": {
+      "sha512": "sUQw3FG0hXMnzkHmddw3/cyFPSpV0XbknaCYY6A/unFYvgeOvsIexo8Widvg6gzG9v1ZCBz1PS7+knoK7Al/Sw==",
+      "type": "package",
+      "path": "netoffice.excel/1.7.3",
+      "files": [
+        "lib/net20/ExcelApi.dll",
+        "lib/net20/ExcelApi.xml",
+        "lib/net30/ExcelApi.dll",
+        "lib/net30/ExcelApi.xml",
+        "lib/net35/ExcelApi.dll",
+        "lib/net35/ExcelApi.xml",
+        "lib/net40/ExcelApi.dll",
+        "lib/net40/ExcelApi.xml",
+        "lib/net45/ExcelApi.dll",
+        "lib/net45/ExcelApi.xml",
+        "netoffice.excel.1.7.3.nupkg.sha512",
+        "netoffice.excel.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+>>>>>>> Cadastro de cliente funcionando
     "NETStandard.Library/2.0.0": {
       "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
       "type": "package",
@@ -660,27 +751,48 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+<<<<<<< HEAD
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\FIC\\.nuget\\packages\\": {},
+=======
+      "Microsoft.NETCore.App >= 2.0.0",
+      "NetOffice.Excel >= 1.7.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Admnin2\\.nuget\\packages\\": {},
+>>>>>>> Cadastro de cliente funcionando
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\FIC\\CalculoCPF\\CalculoCPF.csproj",
       "projectName": "CalculoCPF",
       "projectPath": "C:\\Users\\FIC\\CalculoCPF\\CalculoCPF.csproj",
       "packagesPath": "C:\\Users\\FIC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\FIC\\CalculoCPF\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Admnin2\\Desktop\\projetos\\ProjetoSemanal1-master\\CalculoCPF.csproj",
+      "projectName": "CalculoCPF",
+      "projectPath": "C:\\Users\\Admnin2\\Desktop\\projetos\\ProjetoSemanal1-master\\CalculoCPF.csproj",
+      "packagesPath": "C:\\Users\\Admnin2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admnin2\\Desktop\\projetos\\ProjetoSemanal1-master\\obj\\",
+>>>>>>> Cadastro de cliente funcionando
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\FIC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+        "C:\\Users\\Admnin2\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> Cadastro de cliente funcionando
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -706,6 +818,13 @@
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
+<<<<<<< HEAD
+=======
+          },
+          "NetOffice.Excel": {
+            "target": "Package",
+            "version": "1.7.3.0"
+>>>>>>> Cadastro de cliente funcionando
           }
         },
         "imports": [
@@ -715,5 +834,31 @@
         "warn": true
       }
     }
+<<<<<<< HEAD
   }
+=======
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Core 1.7.3' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetOffice.Excel 1.7.3' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "NetOffice.Excel",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
+>>>>>>> Cadastro de cliente funcionando
 }
